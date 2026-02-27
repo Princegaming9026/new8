@@ -4,7 +4,7 @@ FROM n8nio/n8n:latest
 ENV N8N_HOST=0.0.0.0
 ENV N8N_PORT=10000
 ENV N8N_PROTOCOL=https
-ENV WEBHOOK_URL=https://your-app-name.onrender.com/
+
 
 # Expose port (Render uses 10000)
 EXPOSE 10000
