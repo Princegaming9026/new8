@@ -12,8 +12,7 @@ services:
         value: admin
       - key: N8N_BASIC_AUTH_PASSWORD
         value: N8nadminme
-      - key: WEBHOOK_URL
-        value: https://n8n-xxxx.onrender.com/
+      
       - key: N8N_ENCRYPTION_KEY
         value: 1f9a6ae5698b30c48b8a706bb67b58164d4b8bc41522279c191f292195b5bb41
       - key: DB_TYPE
